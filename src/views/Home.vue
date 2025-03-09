@@ -142,34 +142,5 @@ const addToCart = (product: any) => {
         </div>
       </div>
     </div>
-
-    <!-- Features -->
-    <div class="bg-gray-50 py-12">
-      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="flex items-center justify-center text-center">
-            <div>
-              <span class="text-4xl">🚚</span>
-              <h3 class="mt-4 text-lg font-medium">Free Shipping</h3>
-              <p class="mt-2 text-gray-500">On orders over $99</p>
-            </div>
-          </div>
-          <div class="flex items-center justify-center text-center">
-            <div>
-              <span class="text-4xl">💯</span>
-              <h3 class="mt-4 text-lg font-medium">Quality Guarantee</h3>
-              <p class="mt-2 text-gray-500">100% genuine products</p>
-            </div>
-          </div>
-          <div class="flex items-center justify-center text-center">
-            <div>
-              <span class="text-4xl">📞</span>
-              <h3 class="mt-4 text-lg font-medium">24/7 Support</h3>
-              <p class="mt-2 text-gray-500">Always here to help</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
