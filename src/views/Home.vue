@@ -293,8 +293,7 @@ const addToCart = (product: any) => {
 
 
 <script setup lang="ts">
-import { ref } from 'vue'
-import { Carousel, Slide, Navigation } from 'vue3-carousel'
+import { Carousel, Slide,} from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css'
 import { useCartStore } from '../stores/cart'
 import { ShoppingCartIcon, HeartIcon, EyeIcon } from '@heroicons/vue/24/outline'
