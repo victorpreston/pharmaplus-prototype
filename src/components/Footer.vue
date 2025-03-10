@@ -165,7 +165,7 @@ onUnmounted(() => {
       <button
         v-if="showScrollButton"
         @click="scrollToTop"
-        class="fixed bottom-24 right-8 bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transform hover:scale-110 transition-all duration-300 w-12 h-12 flex items-center justify-center"
+        class="fixed bottom-4 right-8 bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transform hover:scale-110 transition-all duration-300 w-12 h-12 flex items-center justify-center"
         aria-label="Scroll to top"
       >
         <FontAwesomeIcon :icon="faArrowUp" class="text-lg" />

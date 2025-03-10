@@ -17,7 +17,7 @@ const hoveredSubCategory = ref<string | null>(null)
 
 const navigation = [
   { name: 'Featured Products', href: '/featured' },
-  { name: 'Prescription', href: '/prescription' },
+  // { name: 'Prescription', href: '/prescription' },
   { name: 'Popular Brands', href: '/brands' },
   { name: "Today's Deals", href: '/deals' },
   { name: 'Offers', href: '/offers' },
